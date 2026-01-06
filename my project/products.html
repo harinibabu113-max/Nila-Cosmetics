@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products - Nila Cosmetics</title>
+    <link rel="stylesheet" href="cosmetic.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Nila Cosmetics</h1>
+    <nav>
+        <a href="cosmetic.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About-Us</a>
+    </nav>
+</header>
+
+<section id="shop">
+    <h2 class="page-title">Our Products</h2>
+
+    <div class="products">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYXivxjggw7lBaUsZorhqo_jac4XqfIah7Dw&s" alt="Matte Lipstick">
+            <h3>Matte Lipstick</h3>
+            <p>₹299</p>
+            <button onclick="addToCart('Matte Lipstick', 299)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq5Fjcklg5LHXkquuL69ejisvET8lrv4bX3w&s" alt="Liquid Foundation">
+            <h3>Liquid Foundation</h3>
+            <p>₹599</p>
+            <button onclick="addToCart('Liquid Foundation', 599)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZnVtZXxlbnwwfHwwfHx8MA%3D%3D" alt="Perfume Bottle">
+            <h3>Floral Perfume</h3>
+            <p>₹799</p>
+            <button onclick="addToCart('Floral Perfume', 799)">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<h2 class="page-title">Your Cart </h2>
+
+<div id="cart-items"></div>
+<h3 id="total">Total: ₹0</h3>
+
+
+</body>
+</html>

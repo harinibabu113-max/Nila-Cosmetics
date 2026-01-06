@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ac94f4;
+}
+
+header {
+    background: #643b9f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(to right, #ac94f4);
+    font-size: 40px;
+}
+
+.btn {
+    background: #371f76;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    background: #a47dab;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#cart-items {
+    padding: 30px;
+    text-align: center;
+}
+
+#total{
+    text-align: center;
+}
+.thanks{
+     text-align: center;
+     font-size: 30px ;
+     font-family: sans serif;
+ }
+
+.about-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+.about-section p {
+            font-size: 18px;
+            color: #301934;
+            line-height: 1.6;
+        }
+
